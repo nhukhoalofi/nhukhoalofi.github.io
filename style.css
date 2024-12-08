@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Patrick+Hand&family=Patrick+Hand+SC&display=swap');
+
+*{
+    padding: 0;/* Xóa khoảng cách bên trong (padding) của tất cả các phần tử về 0.*/
+    margin: 0;
+    font-family: "Montserrat",sans-serif;
+}
+.container{
+    max-width: 1024px;/*CHiều rộng */
+    width: 100%;
+    margin-inline:auto;/*Canh giữa phần tử theo chiều ngang (tự động thêm khoảng cách hai bên nếu có không gian thừa).*/
+}
+
+header{
+    margin: 30px 0 ;/*Khoảng cách trên: 30px
+    Khoảng cách dưới: 30px
+    Khoảng cách trái và phải: 0px*/
+}
+
+button{
+    background-color:white;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+    color: black;
+    margin: 3px;
+}
+
+table{
+    width: 100%;
+    text-align: left;
+    table-layout: fixed;
+
+}
+
+.tag{
+    display: inline-block;
+    border-bottom: 3px solid red;
+    margin-bottom: 30px;
+}
+
+.logo__J{
+    display: inline-block;
+    background-color: black;
+    color: aliceblue;
+    align-content: center;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+
+.name{
+    font-weight: 500;
+}
+
+.social{
+    display: inline-block;
+    margin-left: 75%;
+    
+}
+.social > span {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* section1_sortInfor */
+.sortInfor{
+    margin-bottom: 25px;
+}
+
+.sortInfor table{
+    width: 100%;
+}
+
+.img{
+    width: 40%;
+    position: relative;
+}
+
+figure img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+figure{
+    width: 100%;
+aspect-ratio: 3/3.5;}
+
+.inf {
+padding-left: 8%;
+vertical-align: top;
+}
+
+.inf div{
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.inf > p{
+    font-weight: 600;
+    /* margin-bottom: 20%; */
+    font-size: xx-large;
+}
+
+.inf table{
+    margin-top: 10%;
+    width: 75%;
+}
+
+.inf table th{
+    color: #d21e5d;
+    font-weight: 900;
+}
+/* end section1 */
+
+/* section2_aboutme */
+
+
+.button_dl {
+    margin: 40px 40px;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.button_download button{
+    background-color:white;
+    padding: 10px;
+    border: 2px solid #d21e5d;
+    border-radius: 30px;
+    color: #d21e5d;
+}
+/* section2 */
+
+/* section3_skill */
+.skills{
+    margin: 50px 0;
+}
+/*  section3 */
+
+
